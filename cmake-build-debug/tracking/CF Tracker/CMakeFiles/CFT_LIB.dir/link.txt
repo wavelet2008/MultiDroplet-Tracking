@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libCFT_LIB.a  CMakeFiles/CFT_LIB.dir/KCF_Tracker.cpp.obj CMakeFiles/CFT_LIB.dir/ColorName_Feature.cpp.obj
+D:\MinGW\bin\ranlib.exe libCFT_LIB.a

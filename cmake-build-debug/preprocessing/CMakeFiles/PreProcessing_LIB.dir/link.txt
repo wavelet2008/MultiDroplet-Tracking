@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libPreProcessing_LIB.a  CMakeFiles/PreProcessing_LIB.dir/preprocessing.cpp.obj CMakeFiles/PreProcessing_LIB.dir/perspective_transform.cpp.obj CMakeFiles/PreProcessing_LIB.dir/segment.cpp.obj
+D:\MinGW\bin\ranlib.exe libPreProcessing_LIB.a

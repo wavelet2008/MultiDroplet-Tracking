@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libCamera_LIB.a  CMakeFiles/Camera_LIB.dir/camera.cpp.obj
+D:\MinGW\bin\ranlib.exe libCamera_LIB.a

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libDetection_LIB.a  CMakeFiles/Detection_LIB.dir/detect.cpp.obj CMakeFiles/Detection_LIB.dir/selectROIs.cpp.obj
+D:\MinGW\bin\ranlib.exe libDetection_LIB.a

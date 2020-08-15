@@ -1,0 +1,24 @@
+"D:\Program Files (x86)\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" "E:\Digital Microfluidics\MV4DMF\MultiDroplet Tracking"
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: D:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+-- Found OpenCV: E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild (found suitable version "4.1.2", minimum required is "4") 
+-- Found OpenCV 4.1.2 in E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/x64/mingw/lib
+-- You might need to add E:/Digital\ Microfluidics/MV4DMF/opencv/MinGWbuild/x64/mingw/bin to your PATH to be able to run your applications.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release

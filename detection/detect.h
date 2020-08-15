@@ -3,7 +3,7 @@
 #include <iostream>
 #include "opencv2/core/core.hpp"
 
-bool manuDetect(cv::Mat &, std::vector<cv::Rect>& bboxes);
+int manuDetect(cv::Mat &, std::vector<cv::Rect> &);
 
 bool colorDetect(cv::Mat &, cv::Scalar, cv::Scalar, double, double, cv::Rect &);
 

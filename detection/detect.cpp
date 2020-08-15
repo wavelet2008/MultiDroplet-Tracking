@@ -2,18 +2,18 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/core.hpp"
 #include "opencv2/imgproc.hpp"
+#include "selectROIs.h"
 
 using namespace std;
 using namespace cv;
 
-bool manuDetect(cv::Mat &frame, vector<Rect> &bboxes) {
-    cv::selectROIs("select ROIs",frame, bboxes);
-    cv::destroyAllWindows();
-    return bboxes.size() > 0;
+int manuDetect(cv::Mat &frame, vector<Rect> &bboxes) {
+    selectROIs(frame, bboxes);
+    return bboxes.size();
 }
 
-bool colorDetect(Mat& img, Scalar lower_thres, Scalar upper_thres, 
-                 double min_r, double max_r, Rect& bbox) {
+bool colorDetect(cv::Mat &img, cv::Scalar lower_thres, cv::Scalar upper_thres, double min_r, double max_r,
+                 cv::Rect &bbox) {
     cv::Mat imhsv, imbin;
     cv::cvtColor(img, imhsv, cv::COLOR_BGR2HSV);
     cv::inRange(imhsv, lower_thres, upper_thres, imbin);

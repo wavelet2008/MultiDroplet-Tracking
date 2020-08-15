@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MultiDropletTracking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\MinGWbuild\;CMake Files\..\opencv\MinGWbuild\x64\;CMake Files\..\opencv\MinGWbuild\x64\mingw\;CMake Files\..\opencv\MinGWbuild\x64\mingw\lib\;CMake Files\camera\;CMake Files\preprocessing\;CMake Files\detection\;CMake Files\tracking\;CMake Files\tracking\CF Tracker\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DropletTracking_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/libDropletTracking_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 DropletTracking_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DropletTracking_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/libDropletTracking_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 DropletTracking_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiDropletTracking">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/MultiDropletTracking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 MultiDropletTracking"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiDropletTracking/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/MultiDropletTracking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 MultiDropletTracking/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Camera_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/libCamera_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 Camera_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Camera_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/libCamera_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 Camera_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PreProcessing_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/libPreProcessing_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 PreProcessing_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PreProcessing_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/libPreProcessing_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 PreProcessing_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/preprocessing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Detection_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/libDetection_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 Detection_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Detection_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/libDetection_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 Detection_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/detection/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tracking_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/libTracking_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 Tracking_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tracking_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/libTracking_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 Tracking_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CFT_LIB">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/libCFT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 CFT_LIB"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CFT_LIB/fast">
+				<Option output="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/libCFT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 CFT_LIB/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-release/tracking/CF Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/camera/camera.cpp">
+			<Option target="Camera_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/camera/camera.h">
+			<Option target="Camera_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/detection/detect.cpp">
+			<Option target="Detection_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/detection/detect.h">
+			<Option target="Detection_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/detection/selectROIs.cpp">
+			<Option target="Detection_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/detection/selectROIs.h">
+			<Option target="Detection_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/main.cpp">
+			<Option target="MultiDropletTracking"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/multidroplet_tracking.cpp">
+			<Option target="DropletTracking_LIB"/>
+			<Option target="MultiDropletTracking"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/multidroplet_tracking.h">
+			<Option target="DropletTracking_LIB"/>
+			<Option target="MultiDropletTracking"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/perspective_transform.cpp">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/perspective_transform.h">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/preprocessing.cpp">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/preprocessing.h">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/segment.cpp">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/segment.h">
+			<Option target="PreProcessing_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CF Tracker/ColorName_Feature.cpp">
+			<Option target="CFT_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CF Tracker/ColorName_Feature.hpp">
+			<Option target="CFT_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CF Tracker/KCF_Tracker.cpp">
+			<Option target="CFT_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CF Tracker/KCF_Tracker.hpp">
+			<Option target="CFT_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/tracking.cpp">
+			<Option target="Tracking_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/tracking.h">
+			<Option target="Tracking_LIB"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/../opencv/MinGWbuild/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\MinGWbuild\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/../opencv/MinGWbuild/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\MinGWbuild\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/../opencv/MinGWbuild/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\MinGWbuild\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/../opencv/MinGWbuild/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\MinGWbuild\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/../opencv/MinGWbuild/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\MinGWbuild\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/camera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camera\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/preprocessing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\preprocessing\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/detection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\detection\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tracking\"/>
+		</Unit>
+		<Unit filename="E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/tracking/CF Tracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tracking\CF Tracker\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libTracking_LIB.a  CMakeFiles/Tracking_LIB.dir/tracking.cpp.obj
+D:\MinGW\bin\ranlib.exe libTracking_LIB.a

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libDropletTracking_LIB.a  CMakeFiles/DropletTracking_LIB.dir/multidroplet_tracking.cpp.obj
+D:\MinGW\bin\ranlib.exe libDropletTracking_LIB.a

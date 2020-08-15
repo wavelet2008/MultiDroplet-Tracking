@@ -1,0 +1,9 @@
+"D:\Program Files (x86)\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Digital Microfluidics\MV4DMF\MultiDroplet Tracking"
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+-- Found OpenCV 4.1.2 in E:/Digital Microfluidics/MV4DMF/opencv/MinGWbuild/x64/mingw/lib
+-- You might need to add E:/Digital\ Microfluidics/MV4DMF/opencv/MinGWbuild/x64/mingw/bin to your PATH to be able to run your applications.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Digital Microfluidics/MV4DMF/MultiDroplet Tracking/cmake-build-debug
